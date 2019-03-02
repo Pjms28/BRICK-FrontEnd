@@ -8,24 +8,23 @@ import { CarouselComponent } from './template/Home-page/carousel/carousel.compon
 import { FormsComponent } from './template/Home-page/forms/forms.component';
 import { IngresarComponent } from './template/Login/ingresar/ingresar.component';
 import { RegistrarComponent } from './template/Registrarse/registrar/registrar.component';
-
+import { HttpClientModule } from '@angular/common/http';
+import { DataApiService} from 'src/app/services/data-api-services';
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     CarouselComponent,
     FormsComponent,
-<<<<<<< HEAD
     IngresarComponent,
     RegistrarComponent
-=======
->>>>>>> 7081a71d6a9e8fd701b92db0adb5169858a5e8ef
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [DataApiService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
