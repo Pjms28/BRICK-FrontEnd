@@ -15,8 +15,11 @@ import { RegistrarComponent } from './template/Registrarse/registrar/registrar.c
     NavbarComponent,
     CarouselComponent,
     FormsComponent,
+<<<<<<< HEAD
     IngresarComponent,
     RegistrarComponent
+=======
+>>>>>>> 7081a71d6a9e8fd701b92db0adb5169858a5e8ef
   ],
   imports: [
     BrowserModule,
