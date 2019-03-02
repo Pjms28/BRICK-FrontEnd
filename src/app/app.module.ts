@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './template/Home-page/navbar/navbar.component';
 import { CarouselComponent } from './template/Home-page/carousel/carousel.component';
 import { FormsComponent } from './template/Home-page/forms/forms.component';
+import { IngresarComponent } from './template/login/ingresar/ingresar.component';
 
 @NgModule({
   declarations: [
