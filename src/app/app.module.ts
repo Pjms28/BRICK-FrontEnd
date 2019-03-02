@@ -12,7 +12,7 @@ import { FormsComponent } from './template/Home-page/forms/forms.component';
     AppComponent,
     NavbarComponent,
     CarouselComponent,
-    FormsComponent
+    FormsComponent,
   ],
   imports: [
     BrowserModule,
