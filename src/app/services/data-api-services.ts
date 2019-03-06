@@ -17,4 +17,5 @@ export class DataApiService {
         const url_api = 'http://localhost:61756/api/proyectos'
         return   this.Http.get(url_api);
     }
+    
 }
